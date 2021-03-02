@@ -3,7 +3,7 @@ Programozás I. választott nagyházifeladata.
 
 Klasszikus PacMan játék
 
-<dd>A játék célja, hogy minél több pontot gyűjtsünk össze. A pályán található étkek megevésével lehet növelni a pontot, mely mindig látható a pálya bal felső sarkában. Ha a pályán minden étket megettünk, akkor szintet lépünk, és egy új, étkekkel teli pálya jelenik meg. Miközben mozgunk, vigyáznunk kell, hogy ne ütközzünk a szellemekkel, mivel ez élet vesztéssel jár és ebből Panman-nek csak három van A pálya négy sarkában el van helyezve egy-egy szuper étek. Ha ezeket összegyűjtjük, utána egy ideig képesek vagyunk mi megenni a szellemeket. A szellemeket addig lehet megenni, amíg kék színűek. Ha a szellemek „villogni” kezdenek, az egy jelzés arra, hogy nemsokára ismét veszélyesek lesznek, nem tudjuk majd tovább megenni őket. A szellemek megevése is növeli a pontok számát.</dd>
+A játék célja, hogy minél több pontot gyűjtsünk össze. A pályán található étkek megevésével lehet növelni a pontot, mely mindig látható a pálya bal felső sarkában. Ha a pályán minden étket megettünk, akkor szintet lépünk, és egy új, étkekkel teli pálya jelenik meg. Miközben mozgunk, vigyáznunk kell, hogy ne ütközzünk a szellemekkel, mivel ez élet vesztéssel jár és ebből Pacman-nek csak három van. A pálya négy sarkában el van helyezve egy-egy szuper étek. Ha ezeket összegyűjtjük, utána egy ideig képesek vagyunk mi megenni a szellemeket. A szellemeket addig lehet megenni, amíg kék színűek. Ha a szellemek „villogni” kezdenek, az egy jelzés arra, hogy nemsokára ismét veszélyesek lesznek, nem tudjuk majd tovább megenni őket. A szellemek megevése is növeli a pontok számát.
 
 A négy szellemnek különböző személyiségei vannak. Az eredeti játékhoz hasonlóan követik a játékost.
 
