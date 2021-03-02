@@ -2,7 +2,9 @@
 Programozás I. választott nagyházifeladata.
 
 Programozói dokumentáció
+
 Készítette: Fehér Mátyás
+
 Nagy házi feladatnak a klasszikus PacMan játékot választottam.
 A feladatot grafikusan oldottam meg. A futtatás előtt a program működéséhez a Pygame multimédiás könyvtár letöltése szükséges.
 A mappa a forrásfájlokon kívül tartalmazza a futáshoz szükséges egyéb dokumentumokat: a beolvasandó szöveges dokumentumokat és a grafikus megjelenítés által alkalmazott képeket. A szellemek és a Pacman megjelenítésére használt képeket a Paint3D segítségével készítettem.
