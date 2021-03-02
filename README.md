@@ -7,5 +7,9 @@ A játék célja, hogy minél több pontot gyűjtsünk össze. A pályán talál
 
 A négy szellemnek különböző személyiségei vannak. Az eredeti játékhoz hasonlóan követik a játékost.
 
-A szellemeket és PacMan-t a Paint3D szoftver segítségével rajzoltam. A program külön telepíthető PyGame modul segítségével készült.![pac_kep](https://user-images.githubusercontent.com/71931496/109664585-90726580-7b6d-11eb-8173-dbe3575585ac.png)
+A szellemeket és PacMan-t a Paint3D szoftver segítségével rajzoltam. A program külön telepíthető PyGame modul segítségével készült.
+<p align="center">
+  <img width="460" height="300" src="https://user-images.githubusercontent.com/71931496/109664585-90726580-7b6d-11eb-8173-dbe3575585ac.png">
+</p>
+
 
