@@ -9,7 +9,7 @@ A négy szellemnek különböző személyiségei vannak. Az eredeti játékhoz h
 
 A szellemeket és PacMan-t a Paint3D szoftver segítségével rajzoltam. A program külön telepíthető PyGame modul segítségével készült.
 <p align="center">
-  <img width="460" height="300" src="https://user-images.githubusercontent.com/71931496/109664585-90726580-7b6d-11eb-8173-dbe3575585ac.png">
+  <img width="800" height="600" src="https://user-images.githubusercontent.com/71931496/109664585-90726580-7b6d-11eb-8173-dbe3575585ac.png">
 </p>
 
 
