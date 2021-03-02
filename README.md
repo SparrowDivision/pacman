@@ -14,9 +14,7 @@ A program indulásakor megjelenik a grafikus ablak. A játék szimulált beölt�
 A program a játék futása alatt folyamatosan számlálja az elért pontokat. A pontok száma a pálya felett bal oldalt tekinthető meg a játék alatt, az életek aktuális száma pedig jobb oldalt. A játék végeztével a pontok elmentésre kerülnek, a felhasználó ehhez meg tudja adni a nevét. Ezután megjelenik a dicsőséglista az eddigi legjobb 10 játékos nevével és elért pontszámával.
 Ezután ismételten megjelenik a betöltő képernyő – a felhasználónak lehetősége van új játék indítására.
 A program tervezése során törekedtem az áttekinthetőségre, ennek érdekében a program több modulra van bontva. A modulokhoz általában egy osztály tartozik, valamint az osztály különböző függvényei
-A program elkészítése során több helyen is használtam fájlkezelést. A pálya beolvasása fájlból történik, így a dokumentum módosításával akár más pályaszerkezet megadására is van lehetőség. A dicsőséglista is fájlkezelésen alapul. A játék végezetével az addig aktuális lista
-Fehér Mátyás, C5ZTP6
-beolvasásra kerül, majd az új eredményt figyelembe véve – ha szükséges – megtörténik a módostás. Ezután a lista visszaírásra kerül az adott fájlba.
+A program elkészítése során több helyen is használtam fájlkezelést. A pálya beolvasása fájlból történik, így a dokumentum módosításával akár más pályaszerkezet megadására is van lehetőség. A dicsőséglista is fájlkezelésen alapul. A játék végezetével az addig aktuális lista beolvasásra kerül, majd az új eredményt figyelembe véve – ha szükséges – megtörténik a módostás. Ezután a lista visszaírásra kerül az adott fájlba.
 Forrásfájlok és főbb függvények
 A program 7 modulból áll. A modulokra bontás a legtöbbször osztályok szerint történt, így egy osztályhoz egy modult használtam.
 A program megírása során használtam öröklést, mivel korábban márt tanultam erről és így a szellemek megvalósítása egyszerűbb volt, mivel vannak közös tulajdonságaik.
@@ -37,9 +35,7 @@ Beolvassa a szuper étkeket abból a fájlból, amiből korábban a falak is be 
 def kaja_ki(self, kiskaja, nagykaja, ablak)
 Kirajzolja a képernyőre a megfelelő pozíciókra a sima és a szuper étkeket is egyaránt. Paraméterként átveszi az ezeknek megfelelő listákat és az ablakot, ahova ki kell őket rajzolni.
 def kkaja_eves(self, kiskaja, pacman)
-A sima étkek megevését valósítja meg a függvény. Ha a Pacman egyet megesz, akkor a pontok száma kettővel nő. A megevett étkeket el kell tűntetni a pályáról. Paraméterként
-Fehér Mátyás, C5ZTP6
-átveszi a sima étkek listáját és a Pacmant, aki megeszi őket. Visszatérési értéke a megmaradt étkek listája.
+A sima étkek megevését valósítja meg a függvény. Ha a Pacman egyet megesz, akkor a pontok száma kettővel nő. A megevett étkeket el kell tűntetni a pályáról. Paraméterként átveszi a sima étkek listáját és a Pacmant, aki megeszi őket. Visszatérési értéke a megmaradt étkek listája.
 def nkaja_eves(self, nagykaja, pacman, szellemek)
 A szuper étkek megevését megvalósító függvény. Ha a Pacman megesz egyet, akkor egy ideig meg tudja enni a szellemeket. A megevett étkeket el kell tűntetni a pályáról. Paraméterként átveszi a szuper étkek listáját, a Pacmant, aki megeszi őket, valamint a pályán tartózkodó szellemeket. Visszatérési értéke a megmaradt étkek listája.
 Pacman.py
@@ -62,7 +58,6 @@ def pont_kiir(self)
 Kiírja a képernyőre a pontok aktuális számát.
 def elet_kiir(self)
 Kiírja a képernyőre az életek aktuális számát.
-Fehér Mátyás, C5ZTP6
 Szellemek.py
 A különböző szellem osztályok definícióját és függvényeit tartalmazza. Az ide tartozó osztályok: Kozos, Inky, Clyde, Pinky, Blinky. A négy különböző szellem a Kozos osztály leszármazottja az azonos tulajdonságok miatt. A szellemek maguktól mozognak, a Pacmant követik.
 class Kozos
@@ -84,7 +79,6 @@ def mehet_e(self)
 A szellemek a kezdő pozícióból bizonyos késleltetéssel indulnak el. Ez a függvény csökkenti a várakozási időt. Ha az nullára csökken, akkor igaz értékkel tér vissza, különben hamissal.
 def teleport(self)
 A pálya jobb és bal oldalán egy-egy teleport van. A függvény célja, hogy ha a szellem ide megy, akkor át tudjon menni rajta.
-Fehér Mátyás, C5ZTP6
 class Inky(Kozos), Clyde(Kozos), Pinky(Kozos), Blinky(Kozos)
 def mozog(self, palya, csomopontok, pacman, b)
 Mindegyik szellem kicsit máshogy valósítja meg a mozgást.
